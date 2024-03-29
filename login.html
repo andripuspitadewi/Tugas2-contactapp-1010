@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login | Contact App Manager</title>
+  <link rel="stylesheet" href="gaya.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Checkbox untuk menampilkan form pendaftaran -->
+    <input type="checkbox" id="check">
+    <div class="form login">
+      <header>Form Login</header>
+      <form action="db.php" method="post">
+        <input type="text" id="email" name="email" placeholder="Masukkan email">
+        <input type="password" id="password" name="password" placeholder="Masukkan password">
+        <a href="#">Lupa Password?</a>
+        <!-- Tombol Login untuk mengirimkan form -->
+        <input type="submit" value="Login" class="button">
+      </form>
+      <div class="signup">
+        <!-- Label dan tautan untuk menampilkan form pendaftaran -->
+        <label for="check">Belum punya akun?</label>
+        <a href="register.html">Daftar</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

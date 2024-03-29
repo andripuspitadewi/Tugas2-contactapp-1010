@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register | Contact App Manager</title>
+  <link rel="stylesheet" href="gaya.css">
+</head>
+<body>
+  <div class="container">
+    <input type="checkbox" id="check">
+    <div class="form register">
+      <header>Form Register</header>
+      <form action="register_process.php" method="post">
+        <input type="text" id="name" name="name" placeholder="Masukkan nama" required>
+        <input type="email" id="email" name="email" placeholder="Masukkan email" required>
+        <input type="password" id="password" name="password" placeholder="Masukkan password" required>
+        <input type="text" id="no_hp" name="no_hp" placeholder="Masukkan nomor telepon" required>
+        <input type="submit" value="Register" class="button">
+      </form>
+      <div class="login">
+        <span class="login">Sudah punya akun?
+          <label for="check">Login</label>
+          <a href="login.html"></a>
+        </span>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
